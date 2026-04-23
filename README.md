@@ -1,6 +1,7 @@
 # CaclculatorApp
 # 🧮 Smart Calculator
 
+[View Presentation](https://docs.google.com/presentation/d/1KaeZW4DcIez0Tf5kyCuwj9qDEZYWuz7QUddj7asHvok/edit?usp=sharing)
 A modern calculator application built with Python and CustomTkinter.
 
 Origin version:
