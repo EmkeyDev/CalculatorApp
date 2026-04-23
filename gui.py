@@ -4,6 +4,7 @@ from CTkListbox import CTkListbox
 from calculator import calculate, calculate_scientific
 from history import save_history, load_history, clear_history
 
+
 class CalculatorApp:
     def __init__(self, root):
         self.root = root
@@ -146,7 +147,6 @@ class CalculatorApp:
                 command=lambda o=op: self.sci_click(o)
             ).grid(row=i // 4, column=i % 4, padx=4, pady=4)
 
-        # цифры под научными
         buttons = [
             'CE', '±', '%', '/',
             '7', '8', '9', '*',
@@ -195,13 +195,12 @@ class CalculatorApp:
             self.show_history()
 
         elif btn == 'CE':
-            # удаляет последний символ
+
             current = self.entry.get()
             self.entry.delete(0, tk.END)
             self.entry.insert(0, current[:-1])
 
         elif btn == '±':
-            # меняет знак числа
             current = self.entry.get()
             try:
                 value = float(current)
@@ -212,7 +211,6 @@ class CalculatorApp:
                 pass
 
         elif btn == '%':
-            # делит на 100
             current = self.entry.get()
             try:
                 value = float(current) / 100
@@ -233,7 +231,6 @@ class CalculatorApp:
         value = self.entry.get()
 
         if operation == "xy":
-            # пользователь вводит основание, добавляем **
             self.entry.insert(tk.END, "**")
             return
 
