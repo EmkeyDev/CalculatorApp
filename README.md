@@ -3,10 +3,13 @@
 
 A modern calculator application built with Python and CustomTkinter.
 
-origin 
+Origin version:
+<img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/93ec53eb-3469-453e-bdde-7162365a011c" />
+
+
+Last version:
 <img width="1920" height="1021" alt="image" src="https://github.com/user-attachments/assets/d36d603d-09ab-455c-ac14-729e94499b79" />
 <img width="1913" height="1014" alt="image" src="https://github.com/user-attachments/assets/3daefea0-b08d-48fa-be88-dbeace7d7f2a" />
-![Uploading image.png…]()
 
 
 ---
