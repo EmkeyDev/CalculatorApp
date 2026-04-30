@@ -2,7 +2,7 @@ import math
 
 def calculate_scientific(operation, value):
     try:
-        value = float(value)
+        value = float(value)# value
         if operation == "sqrt":
             return math.sqrt(value)
         elif operation == "log":
